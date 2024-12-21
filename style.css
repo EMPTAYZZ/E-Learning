@@ -1,0 +1,178 @@
+.text-primary {
+  color: #05bbcc !important;
+}
+.bg-primary {
+  background-color: #05bbcc !important;
+}
+.btn-primary {
+  background-color: #05bbcc !important;
+  border-color: #05bbcc !important;
+}
+.bg-card {
+  background-color: #f0fbfc;
+}
+
+.navbar {
+  background-color: #fff !important;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.navbar .nav-item {
+  text-transform: uppercase;
+  margin-right: 12px;
+  font-weight: 500;
+}
+
+/* ------- carousel ------- */
+
+.carousel .carousel-item {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel .carousel-item .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.carousel .carousel-item .content .action {
+  display: flex;
+}
+
+.carousel .carousel-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carousel .carousel-item .row {
+  position: relative;
+  z-index: 10;
+}
+
+.carousel .carousel-item h5 {
+  text-transform: uppercase;
+}
+
+.carousel .carousel-1 {
+  background-image: url("../images/carousel-1.png");
+}
+.carousel .carousel-2 {
+  background-image: url("../images/carousel-2.png");
+}
+
+/* ----------- services ------------ */
+.services .service-item {
+  background-color: #f0fbfc;
+}
+.services .service-item img {
+  height: 60px;
+}
+
+/* ----------- category ------------ */
+.course-category .categori-item {
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 18px;
+}
+.course-category .categori-item .categori-text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 12px;
+}
+.course-category .categori-item h5 {
+  color: initial;
+}
+.course-category .categori-item:nth-child(1) {
+  background-image: url("../images/course-1.png");
+}
+.course-category .categori-item:nth-child(2) {
+  background-image: url("../images/course-2.png");
+}
+.course-category .categori-item:nth-child(3) {
+  background-image: url("../images/course-3.png");
+}
+.course-category .categori-item:nth-child(4) {
+  background-image: url("../images/course-4.png");
+}
+
+/* ----------- courses ------------ */
+.courses .course-item {
+  background-color: #f0fbfc;
+}
+
+/* ----------- instructors ------------ */
+.team-item .socmed-icon img {
+  width: 32px;
+  height: 32px;
+}
+
+/* ----------- footer ------------ */
+.footer {
+  color: #fff !important;
+  padding-bottom: 40px;
+}
+
+.footer a {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.footer .quick-link a {
+  display: block;
+  text-align: left !important;
+}
+
+.footer .socmed-icon a {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  margin-right: 4px;
+}
+
+.footer .socmed-icon img {
+  height: 20px;
+}
+
+/* ----------- not found banner */
+.not_found .banner {
+  background-image: url("../images/carousel-1.png");
+  background-size: cover;
+  height: 440px;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  padding-top: 100px;
+}
+
+.not_found .banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.not_found .banner .content {
+  position: relative;
+  z-index: 1000;
+}
